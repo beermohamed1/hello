@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.box{
+    width: 100%;
+    height: 110px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA4AMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDBv/EABgQAQEBAQEAAAAAAAAAAAAAAAABETEC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEFAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A9uqkz2+EkCajLUAkFURBESlwIGtTJBqERCEIUBRSKKkEioJAgqhRQqzqK3qZ2HVRVIAW/LEbgGFJXKSAFBBCWTOg0lRohFq0AhSKKggirUgKtWhArWarRUVGMkGkDAMbjMMVGkIqJCFo0ISyQKgKmtIAQ2hIEEqiwaDQCBAqrN6qkVVkigpxQEDGozG4BSSoUEIQkBUBgFBAUtAQoIIaAgSQFSQoCghFFFLNFTUZINRqMoRsslUKCAoICgYCSAExlA0EhEkBUkzQI0JFQqAIUs2iqUxjWpRWtaY06I1rWsaRGtTMOqhS0WgdMrBgNIatAgRaDa0aLQVq1kaDVoGhFIC0DRVooq1m1M1HQlalc5ToOunXOVrVTW9OuemUSNmVnVoNjRq0RpazatCNDRq0DpjGqUG9Fo0aB1DVoQ0ambRVqA0WNaLbrNotRTaLRaLRWNMrClKOsplctalCOurWJSI3K1rlK1qpG9WsatCN6mdOhDp1jToQ6tZ0yhGtDNq0IbRo0aEa0aNZtCNWi0Wi1FhtFotZtFOrWSlGEEK1plZhgOkpYOriNa1GTBGkiCWoCFBAdGrRop1aAC0Wi0WinRazaNNGtWshBu3RrOoU6tCFASBNRINaSS4jfnjUCEbSQiSQiCQoSQIJCs1j0UDKSRQEgKSBKpCv/9k=);
+    display:flex;
+   justify-content: space-around;
+}
+.ho{
+   width: 80px;
+   height: 70px;
+   margin-left: 5px;
+   margin-right: 270px;
+    margin-top: 15px;
+    cursor: pointer;  
+}
+.box .logo img{ 
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+.box .logo ul{
+         margin-top: 25px;
+         gap: 1;
+         margin-left: 600px;
+         cursor: pointer;
+}
+.nav {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    
+}
+.nav li:hover{
+    text-decoration: underline white;
+}
+.box2{
+width: 100%;
+height: 100vh;
+background:url(https://www.7up.com/images/simple-7up/image3.png);
+background-size: cover;
+position: relative;
+}
+.box3{
+    width: 100%;
+height: 100vh;
+background: url(https://www.7up.com/images/simple-7up/image2.png);
+background-size: cover;
+position: relative;
+}
+.box4{
+    width: 100%;
+height:100vh;
+background:url(https://www.7up.com/images/simple-7up/image1.png);
+background-size: cover;
+line-height: 50px;
+position: relative;
+text-align: center;
+}
+.box5{
+    width: 100%;
+    height:150px;
+    background-color: grey;
+}
+ h1{
+    font-size: 70px;
+font-family: "Akaya Kanadaka", system-ui;
+line-height: 60px;
+overflow: hidden;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: 240px;
+  left: 130px;
+  color: white;
+}
+p {
+    position: absolute;
+    font-size: 20px;
+font-family: "Akaya Kanadaka", system-ui;
+
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: 390px;
+  left: 150px;
+  color: white;
+  padding:5px 20px 5px 20px ;
+  
+  border-radius: 100px;
+}
+.he{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.box3{
+    position: relative;
+    font-size: 20px;
+    font-family: "Akaya Kanadaka", system-ui;
+    
+      font-weight: 700;
+      font-style: normal;
+    
+     line-height: 40px;
+}
+.bp{
+    line-height: 40px;
+    position: absolute;
+    top: 260px;
+    padding-bottom: 20px;
+    text-align: center;
+    left: 35%;
+    background-color:rgba(10, 91, 43, 0.8);
+}
+.hp{
+   padding: 5px 15px 5px 15px;
+    border: 2px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.last{
+    
+    line-height: 60px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    left: 35%;
+    background-color:rgba(10, 91, 43, 0.8);
+}
+.rad{
+   padding: 5px 15px 5px 15px;
+    border: 2px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+ul{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left:220px ;
+    padding-top: 20px;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.box5 ul li:hover{
+    text-decoration: underline white;
+
+}
+h5{
+    text-align: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+color: aliceblue;
+padding-top: 20px;
+
+}
